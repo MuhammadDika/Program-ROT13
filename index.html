@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program ROT 13</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>ROT13</h1>
+        <div class="sections-container">
+            <div class="section encrypt-section">
+                <h2>Enkripsi</h2>
+                <div class="input-container">
+                    <textarea id="encryptInput" placeholder="Masukkan teks untuk dienkripsi..."></textarea>
+                    <button class="encrypt-btn" onclick="encrypt()">Enkripsi</button>
+                    <div id="encryptResult" class="result"></div>
+                </div>
+            </div>
+            <div class="section decrypt-section">
+                <h2>Dekripsi</h2>
+                <div class="input-container">
+                    <textarea id="decryptInput" placeholder="Masukkan teks untuk didekripsi..."></textarea>
+                    <button class="decrypt-btn" onclick="decrypt()">Dekripsi</button>
+                    <div id="decryptResult" class="result"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            Made with ❤️ by <span>Dikaa Muhammad</span>
+        </div>
+    </div>
+    
+    <script src="logic.js"></script>
+</body>
+</html>
